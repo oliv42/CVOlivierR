@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;700&display=swap');
 
 body {
-    background:#eee;
+    background:rgb(50, 63, 79);
     font-family: Asap;
 }
 
@@ -10,254 +10,24 @@ body {
     box-sizing: border-box;
 }
 
-.container {
-    width: 90%;
-    margin: auto;
-    padding-left:250px;
-    background:#fff;
-    box-shadow:0 0 5px rgba(0,0,0,.1);
-}
-
-.header {
-    float: left;
-    position: sticky;
-    top: 0px;
-    margin-left: -250px;
-    width: 250px;
-    background: #f5f5f5;
-    border-right: 1px solid rgba(0,0,0,.1);
-    padding-bottom: 100vh;
-}
-
 h1{
     font-weight: bold;
-    text-align: right;
-}
-
-.content-focus h2{
-    text-align: right;
-    font-weight: bold;
-    color: rgb(170, 165, 165);
-    font-size: 2rem;
-}
-
-.search {
-    padding: 1rem;
-    background: #f39c12;
-}
-
-.search-input {
-    padding: .75rem 1rem;
-    border: none;
-    font-size:1.2em;
-    width:100%;
-    border-radius:2rem;
-}
-
-.title {
-    font-size: 2em;
-    font-weight: bold;
-    border-bottom:3px solid #f39c12;
-    padding-bottom:1rem;
-}
-
-.nav {
-    padding: 2rem;
-}
-
-.nav-links {
-    margin-top: 2rem;
-}
-
-.nav-item {
-    font-size: 1.2rem;
-    background-color: rgb(223, 217, 217);
-    padding: 0.7em;
-    margin: 0.2em;
-    border-radius: 6px;
-    transition: all 300ms;
-}
-
-.nav-item:first-child{
-    border-bottom: solid 3px #f39c12;
-}
-
-.nav-item:hover{
-    background-color: #f39c12;
-}
-
-.page {
-    padding: 5rem 2rem 2rem;
-}
-
-.content-focus {
-    border-bottom: 3px solid #ccc;
-    padding-bottom: 2rem;
-    margin-bottom: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.content-titles {
-    width: 50%;
-    font-size: 3em;
-    margin-right: 2rem;
-}
-
-.content-title {
-    max-width: 450px;
-    margin-left: auto;
-}
-
-.content-picture {
-    width: 50%;
-    position: relative;
-}
-
-.rounded {
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-.picture {
-    width: 100%;
-    display: block;
-}
-
-.content-quote {
-    border-top: 3px solid #ccc;
-    margin-top: 2rem;
-}
-
-.content p {
-    font-size: 1.1em;
-    line-height: 1.5;
-}
-
-.content h3 {
-    font-size: 1.7em;
-    font-weight: bold;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-}
-
-.content ol {
-    list-style-type: decimal;
-    font-size: 1.1em;
-    margin-left: 1.5em;
-    line-height: 1.5;
-}
-
-.articles {
-    margin-top: 5rem;
-}
-
-.articles-container {
-    margin-top: 2rem;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.card {
-    margin-bottom: 2rem;
-    width: 50%;
-    padding: 0.5rem;
-}
-
-.card-title {
-    margin: 2rem 1rem;
-    font-size: 1.7em;
-    font-weight: bold;
-}
-
-.card-content {
-    padding: 0 1rem;
-}
-
-.card-content p {
-    font-size: 1.1em;
-    line-height: 1.5;
-}
-
-.card-footer {
-    margin: 2rem 1rem;
-    display: flex;
-}
-
-.btn {
-    padding: 1rem 1.3rem;
-    font-size: 1.1em;
-    color: #f39c12;
-    font-weight: bold;
-    border: #f39c12 solid 4px;
-    margin: 0.3em;
-    border-radius: 100px;
-    transition: all 300ms;
-}
-
-.btn:hover{
-    background-color: #f39c12;
-    color: white;
-    bottom: 0px;
-    z-index: 10;
-}
-
-.footer {
-    background: #111;
-    padding: 4rem 2rem;
     text-align: center;
-    color: #aaa;
+    color: white
+}
+
+.photo_profil div{
+    width:200px;
+    height: 200px;
+
+}
+
+img{
+    background: rgb(150, 148, 148);
+    width:80px;
 }
 
 
-/* A revoir le positionnment de la légende */
-.rounded{
-    position: static;
-}
-
-.rounded .picture{
-    border-radius: 15px;
-}
-.picture-desc{
-    background: linear-gradient(rgba(0, 0, 0, 0.411), rgba(71, 68, 68, 0.274));
-    padding: 1rem;
-    bottom: 3rem;
-    color: white;
-    position: relative;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
-
-
-@media screen and (max-width: 1200px) {
-
-    .content-focus {
-        display:block;
-    }
-
-    .content-titles {
-        width: auto;
-        text-align: center;
-        margin-right: 0;
-    }
-
-    .content-title {
-        max-width: none;
-    }
-
-    .content-picture {
-        width: auto;
-    }
-
-    .articles-container {
-      
-        display:block;
-    }
-    .card {
-        width:auto;
-    }
-}
 
 
 @media screen and (max-width: 900px) {
