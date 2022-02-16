@@ -12,17 +12,28 @@
 <body>
     <header>
         <h1>CV Olvier REBOUL</h1>
+        <div class="cointainer_photo_profil">
+            <img src="./img/PXL_20210416_112309949.PORTRAIT.jpg" alt="Photo Profil" class="photo_profil">
+        </div>
         <div class="profil">
             <h2>Developpeur webJavascript FullStack </h2>
             <p>
-                En reconversion développeur web, avec la formation de l'école O'Clock. J'ai Automaticien CVC , j’ai  9 ans d’expérience dans le domaine du bâtiment avec une bonne adaptabilité et un excellent esprit d’équipe. Je cherche à m’épanouir professionnellement dans mon domaine. 
+                Suite à une reconversion dans le développement web avec le boot camp O'Clock, j'ai hâte de mettre en pratique mes nouvelles compétences. 
+Mon emploi précédent m’a conduit vers le développement web. Ancien automaticien CVC, et passionné d’informatique depuis l’enfance, j'ai programmé de nombreux automates et réalisé différentes supervisions sur de gros projets. 
+Ces expériences très complémentaires au développement web m’ont permis de comprendre les besoins d’une entreprise sous ses différents aspects.
             </p>
         </div>
-        <div>
+        <nav>
+            <ul>
+                <li><a href="#bloc-contact">Contact</a></li>
+                <li><a href="#bloc-competences">Compétences</a></li>
+                <li><a href="#bloc-experiences">Expériences professionelles</a></li>
+                <li><a href="#bloc-formations">Formations</a></li>
+                <li><a href="#bloc-footer">Liens</a></li>
+            </ul>
+        </nav>
+        <div id="bloc-contact">
             <h2>CONTACT</h2>
-            <div class="cointainer_photo_profil">
-                <img src="./img/PXL_20210416_112309949.PORTRAIT.jpg" alt="Photo Profil" class="photo_profil">
-            </div>
             <p>
                 Mobile: 06.42.48.57.95 <br>
                 Adresse: 256 Rue des Grandes Terre <br>
@@ -31,7 +42,7 @@
             </p>
         </div>
     </header>
-    <div class="competences">
+    <div id="bloc-competences">
         <h2>COMPETENCESS</h2>
         <article class = "langages competence">
             <h3>Langages</h3>
@@ -94,7 +105,7 @@
             </ul>
         </article>
     </div>
-    <div class="formations">
+    <div id="bloc-formations">
         <h2>FORMATIONS</h2>
         <article class="formation">
             <span>2022</span>
@@ -113,7 +124,7 @@
             <p>DUT Génie Électrotechnique et Informatique  Industrielle</p>
         </article>
     </div>
-    <div class="experiences">
+    <div id="bloc-experiences">
         <h2>EXPERIENCES PROFESSIONELLES</h2>
         <article>
             <img src="./img/erep-logo.png" alt="Logo entreprise EREP">
@@ -148,8 +159,15 @@
             </p>
         </article>
     </div>
-    <footer>
-
+    <footer id="bloc-footer">
+        <ul>
+            <li><a href="https://github.com/oliv42">Github</a></li>
+            <!-- Todo Vérifier si le lien est correcte -->
+            <li><a href="https://www.linkedin.com/in/olivier-reboul-052281140/">linkedin</a></li>
+            <!-- A voir pour faire une feuille CSS -->
+            <li><a href="blabla"></a>Imprimer CV</li>
+        </ul>
+        <small>&copy; Copyright 2022, Réalisé par Olivier Reboul</small>
     </footer>
 </body>
 </html>
