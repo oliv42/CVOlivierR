@@ -1,0 +1,26 @@
+{
+  "name": "cvolivierr",
+  "version": "1.0.0",
+  "description": "Cv sous format HTML actualisé sortie Ecole O'Clock 🖕",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliv42/CVOlivierR.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oliv42/CVOlivierR/issues"
+  },
+  "homepage": "https://github.com/oliv42/CVOlivierR#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}

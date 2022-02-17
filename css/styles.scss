@@ -1,0 +1,28 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;700&display=swap');
+
+$backgroundColor: #0a3d62;
+
+
+body {
+    background: $backgroundColor;
+    font-family: Asap;
+}
+
+* {
+    box-sizing: border-box;
+}
+p, li, span{
+    color: white
+}
+
+h1, h2, h3{
+    font-weight: bold;
+    text-align: center;
+    color: white
+}
+
+img{
+    background: rgb(150, 148, 148);
+    width:120px;
+}
