@@ -11980,4 +11980,10 @@ img {
   background: #969494;
   width: 120px;
 }
+
+#photoProfil {
+  border-radius: 50%;
+  border: 2px solid;
+  width: 250px;
+}
 /*# sourceMappingURL=styles.css.map */
