@@ -14,12 +14,10 @@
 
 <body>
     <div class="container">
-        <div class="row">
+        <div class="row sticky-top">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
-                        <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24">
-                    </a>
+                    <a id="linkOlivierR" class="navbar-brand" href="#">Olivier R.</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -27,18 +25,18 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                            <a class="nav-link" href="#bloc-contact">Contact</a>
-                            <a class="nav-link" href="#bloc-competences">Comp&eacute;tences</a>
-                            <a class="nav-link" href="#bloc-experiences">Exp&eacute;riences professionelles</a>
-                            <a class="nav-link" href="#bloc-formations">Formations</a>
-                            <a class="nav-link" href="#bloc-footer">Liens</a>                         
+                            <a id="linkCompetences" class="nav-link" href="#bloc-competences">Comp&eacute;tences</a>
+                            <a id="linkExpe" class="nav-link" href="#bloc-experiences">Exp&eacute;riences professionelles</a>
+                            <a id="linkContact" class="nav-link" href="#bloc-contact">Contact</a>
+                            <a id="linkFormations" class="nav-link" href="#bloc-formations">Formations</a>
+                            <a id="linkFooter" class="nav-link" href="#bloc-footer">Liens</a>                         
                         </div>
                     </div>
                 </div>
             </nav>
         </div>
         <div class="row">
-            <h1 class="display-4">Olivier REBOUL</h1>
+            <h1 class="display-4 text-white text-center fw-bolder">Olivier REBOUL</h1>
         </div>
         <div class="row">
             <div class="col">
@@ -127,11 +125,11 @@
                         </p>
                     </div>
                 </div>
-                <div class="row bg-warning">
+                <div id="bloc-competences" class="row bg-warning">
                     <P>
                         Competence
                     </P>
-                    <div id="bloc-competences">
+                    <div>
                         <h2>COMPETENCESS</h2>
                         <article class="langages competence">
                             <h3>Langages</h3>
@@ -236,7 +234,7 @@
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
+    <script type="text/javascript" src="./js/script.js"></script>
 </body>
 
 </html>
