@@ -7,7 +7,11 @@ function animeNavBar(){
     const lienLink = document.getElementById("linkFooter");
 
     olivierRLink.addEventListener("click", () =>{
-        alert("Olivier");
+        competencesLink.classList.remove('active');
+        expeLink.classList.remove('active');
+        contactLink.classList.remove('active');
+        formationLink.classList.remove('active');
+        lienLink.classList.remove('active');
     })
 
     competencesLink.addEventListener("click", () =>{
