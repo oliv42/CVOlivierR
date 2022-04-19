@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/oliv42/CVOlivierR#readme",
   "dependencies": {
-    "bootstrap": "^5.1.3"
+    "bootstrap": "^5.1.3",
+    "ng-circle-progress": "^1.6.0"
   }
 }

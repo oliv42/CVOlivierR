@@ -1,4 +1,4 @@
-function animeNavBar(){
+const animeNavBar = () => {
     const olivierRLink = document.getElementById("linkOlivierR");
     const competencesLink = document.getElementById("linkCompetences");
     const expeLink = document.getElementById("linkExpe");
@@ -12,6 +12,7 @@ function animeNavBar(){
         contactLink.classList.remove('active');
         formationLink.classList.remove('active');
         lienLink.classList.remove('active');
+        // alert("test");
     })
 
     competencesLink.addEventListener("click", () =>{
@@ -53,6 +54,6 @@ function animeNavBar(){
         formationLink.classList.remove('active');
         lienLink.classList.add('active');
     })
-}
+};
 
 animeNavBar();
